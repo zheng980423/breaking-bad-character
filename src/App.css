@@ -119,6 +119,31 @@ input[type='text'] {
   list-style: none;
   padding-bottom: 10px;
 }
+nav {
+  margin-top: 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  padding: 20px 20px;
+  background-color: #fff;
+}
+nav li:nth-of-type(even) {
+  border-left: none;
+  border-right: none;
+}
+nav li:hover {
+  border: 2px solid seagreen;
+  background-color: #3fb573;
+}
+nav a {
+  color: #333;
+  padding: 20px;
+}
 
 @media (max-width: 800px) {
   .cards {

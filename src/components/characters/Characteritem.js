@@ -17,9 +17,6 @@ const CharacterItem = ({ item }) => {
               <strong>昵称:</strong> {item.nickname}
             </li>
             <li>
-              <strong>职业:</strong> {item.occupation}
-            </li>
-            <li>
               <strong>生日:</strong> {item.birthday}
             </li>
             <li>
